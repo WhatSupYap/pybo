@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-d@twn1l-fsr54oi+_l*gkyupd=mrm^tl+vyrdtc(y$@ehtft#h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True # 개발 단계에서는 True로 설정
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['3.37.225.147'] # 서버의 IP 주소를 추가
 
 
 # Application definition
