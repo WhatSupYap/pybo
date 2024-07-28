@@ -20,3 +20,6 @@ def signup(request):
     else:
         form = UserForm()
     return render(request, 'common/signup.html', {'form': form})
+
+def page_not_found(request, exception):
+    return render(request, 'common/404.html', {}) # 404.html 템플릿을 사용하여 렌더링
